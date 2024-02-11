@@ -9,7 +9,7 @@ import { faCrown } from '@fortawesome/free-solid-svg-icons'
 import Primary from '../Buttons/Primary/Primary'
 const SideContent = () => {
   return (
-    <div className=' h-screen bg-white p-5 shadow-lg flex flex-col items-center gap-3 z-50'>
+    <div className='  h-screen bg-white p-3 shadow-lg flex flex-col items-center justify-between z-50'>
         <Card>
             <h1 className='text-[1.5rem] font-semibold'>Expenses and Income</h1>
             <div className='flex items-center justify-between my-[1rem]'>

@@ -17,7 +17,7 @@ const SideHeader = () => {
     const [selectedIndex, setSelectedIndex] = useState(0);
 
   return (
-    <div className='p-2 absolute top-0 left-0 h-screen shadow-lg w-fit flex flex-col items-center justify-between z-[999]'>
+    <div className='p-2 fixed top-0 left-0 h-screen shadow-lg w-fit flex flex-col items-center justify-between z-[999]'>
         <div className='flex flex-col items-center gap-5'>
             <h1 className='text-[1.5rem] text-center'>S.</h1>
             <div className='bg-[#FDE0BC] rounded-full flex items-center justify-center py-4 px-2'>

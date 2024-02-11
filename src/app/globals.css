@@ -9,4 +9,7 @@
   .latest-item:not(:last-child){
     @apply border-b-[.1rem] border-gray-300
   }
+  ::-webkit-scrollbar {
+    @apply hidden 
+  }
 }

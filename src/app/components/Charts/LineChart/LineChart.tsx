@@ -42,6 +42,9 @@ const BarChart = () => {
         },
         ticks: {
           display: false
+        },
+        border:{
+          display: false
         }
       },
       x:{
@@ -50,6 +53,9 @@ const BarChart = () => {
           display: false
         },
         ticks: {
+          display: false
+        },
+        border:{
           display: false
         }
       },
